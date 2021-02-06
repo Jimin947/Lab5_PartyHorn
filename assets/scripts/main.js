@@ -12,7 +12,8 @@ function disableButton(){
 }
 
 document.getElementById('honk-btn').addEventListener('click', function(){
-
+  event.preventDefault();
+  disableButton();
   document.getElementById('horn-sound').volume = document.getElementById('volume-number').value/100;
   document.getElementById('horn-sound').play();
 });
