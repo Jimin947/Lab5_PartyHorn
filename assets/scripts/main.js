@@ -4,10 +4,10 @@
 function disableButton(){
   let val = document.getElementById('volume-number').value; 
   if(val != 0 ){
-    document.getElementById("honk-btn").disabled = true;
+    document.getElementById("honk-btn").disabled = false;
   }
   else {
-    document.getElementById("honk-btn").disabled = false;
+    document.getElementById("honk-btn").disabled = true;
   }
 }
 
