@@ -2,11 +2,11 @@
 
 //Input Field
 
-document.getElementById('volume-number').addEventListener("input", function(){
+document.getElementById('volume-number').addEventListener('input', function(){
   
-  var val = document.getElementById("volume-slider").value 
+  var val = document.getElementById('volume-slider').value 
   
-  document.getElementByID("volume-number").value = val
+  document.getElementByID('volume-number').value = val
 
 //Slider
 
