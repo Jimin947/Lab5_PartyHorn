@@ -23,7 +23,7 @@ document.getElementById('honk-btn').addEventListener('click', function(event){
 document.getElementById('volume-number').addEventListener('input', function(){
   
   var val = document.getElementById('volume-number').value; 
-  document.getElementByID('volume-slider').value = val;
+  document.getElementById('volume-slider').value = val;
   
   if(val == 0) {
     document.getElementById('volume-image').src = "./assets/media/icons/volume-level-0.svg";
